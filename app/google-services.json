@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "270515207111",
+    "firebase_url": "https://imedicareapp-90e0d.firebaseio.com",
+    "project_id": "imedicareapp-90e0d",
+    "storage_bucket": "imedicareapp-90e0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270515207111:android:903d0fdb1368cbe56537e2",
+        "android_client_info": {
+          "package_name": "com.github.johnkeno.imedicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270515207111-cpc6qno060jgmqrsl4g9en73pcugaokf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADkIyG1d3RsvU5XqKebb6jiHsGCPA868U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270515207111-cpc6qno060jgmqrsl4g9en73pcugaokf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
