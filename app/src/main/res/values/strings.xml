@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="sign_up_as_a_doctor">Sign up as a Doctor</string>
+    <string name="sign_up_as_a_patient">Sign up as a Patient</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
