@@ -1,9 +1,11 @@
 package com.example.androidapp;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import com.example.androidapp.dialogFragments.SignUpDialog;
+import com.example.androidapp.doctor.DoctorsRegistration;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
@@ -27,11 +29,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         password=findViewById(R.id.password);
-
     }
     public void signUp(View view){
-        SignUpDialog signUp= new SignUpDialog();
-        signUp.show(getSupportFragmentManager(),"signUp");
+        Intent intent= new Intent(this, DoctorsRegistration.class);
+        startActivity(intent);
     }
     private void signIn(View view){
 

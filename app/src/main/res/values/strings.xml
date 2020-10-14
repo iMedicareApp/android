@@ -4,8 +4,7 @@
     <!-- Strings used for fragments for navigation -->
 
 
-
-    <string name="hint_username">Username</string>
+    <string name="hint_username">Email</string>
     <string name="hint_password">Password</string>
     <!-- TODO: Remove or change this placeholder text -->
 

@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/background</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
@@ -18,6 +18,11 @@
 
     <style name="AppTheme.EditText" parent="ThemeOverlay.MaterialComponents">
         <item name="colorPrimary">@android:color/white</item>
+        <item name="colorAccent">@color/background1</item>
     </style>
-
+    <style name="AppTheme.Spinner" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textColor">@color/background1</item>
+        <item name="android:textColorHint">@color/background1</item>
+        <item name="android:textColorSecondary">@color/background1</item>
+    </style>
 </resources>
