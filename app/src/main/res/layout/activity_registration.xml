@@ -17,7 +17,8 @@
         android:textColor="@color/background1"
         android:layout_marginTop="30dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/firstNameLayout"
         android:layout_width="match_parent"
@@ -30,7 +31,9 @@
         android:textColorHint="@color/background1"
         app:hintTextColor="@color/background1"
         android:theme="@style/AppTheme.EditText"
-        app:layout_constraintTop_toBottomOf="@+id/doctorsRegistration">
+        app:layout_constraintTop_toBottomOf="@+id/doctorsRegistration"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/firstName"
             android:layout_width="match_parent"
@@ -55,7 +58,9 @@
         android:textColorHint="@color/background1"
         app:hintTextColor="@color/background1"
         android:theme="@style/AppTheme.EditText"
-        app:layout_constraintTop_toBottomOf="@+id/firstNameLayout">
+        app:layout_constraintTop_toBottomOf="@+id/firstNameLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/lastName"
             android:layout_width="match_parent"
@@ -79,7 +84,9 @@
         app:hintTextColor="@color/background1"
         android:theme="@style/AppTheme.EditText"
         style="@style/Widget.Design.TextInputLayout"
-        app:layout_constraintTop_toBottomOf="@+id/lastNameLayout">
+        app:layout_constraintTop_toBottomOf="@+id/lastNameLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
             android:layout_width="match_parent"
@@ -106,7 +113,9 @@
         app:passwordToggleDrawable="@drawable/password_drawable"
         app:passwordToggleTint="@color/background1"
         style="@style/Widget.Design.TextInputLayout"
-        app:layout_constraintTop_toBottomOf="@+id/emailLayout">
+        app:layout_constraintTop_toBottomOf="@+id/emailLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
             android:layout_width="match_parent"
@@ -133,7 +142,9 @@
         app:passwordToggleDrawable="@drawable/password_drawable"
         app:passwordToggleTint="@color/background1"
         style="@style/Widget.Design.TextInputLayout"
-        app:layout_constraintTop_toBottomOf="@+id/passwordLayout">
+        app:layout_constraintTop_toBottomOf="@+id/passwordLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/retypePassword"
             android:layout_width="match_parent"
@@ -160,6 +171,7 @@
         android:layout_marginEnd="20dp"
         android:backgroundTint="@color/background1"
         android:theme="@style/AppTheme.Spinner"
+        android:spinnerMode="dropdown"
         app:layout_constraintTop_toBottomOf="@id/textRole"
         app:layout_constraintStart_toStartOf="@id/textRole"
         app:layout_constraintEnd_toEndOf="@id/textRole"/>
@@ -176,6 +188,6 @@
         app:cornerRadius="15dp"
         app:strokeColor="@color/background1"
         app:layout_constraintTop_toBottomOf="@id/spinner"
-        app:layout_constraintStart_toStartOf="@id/spinner"
-        app:layout_constraintEnd_toEndOf="@id/spinner"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

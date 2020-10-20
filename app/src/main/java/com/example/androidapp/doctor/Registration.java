@@ -26,7 +26,7 @@ public class Registration extends AppCompatActivity {
 
         spinner.setAdapter(adapt);
         spinner.setSelection(0);
-        spinner.setDropDownVerticalOffset(20);
+        spinner.setDropDownVerticalOffset(60);
 
     }
 }
