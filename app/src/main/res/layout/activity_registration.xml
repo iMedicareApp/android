@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".doctor.DoctorsRegistration">
+    tools:context=".doctor.Registration">
     <TextView
         android:id="@+id/doctorsRegistration"
         android:layout_width="match_parent"
@@ -36,6 +36,7 @@
             android:layout_width="match_parent"
             android:backgroundTint="@color/background1"
             android:textColor="@android:color/white"
+            android:textSize="15sp"
             android:inputType="text"
             android:maxLines="1"
             android:layout_height="wrap_content"
@@ -61,6 +62,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/background1"
             android:textColor="@android:color/white"
+            android:textSize="15sp"
             android:inputType="text"
             android:maxLines="1"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -85,6 +87,7 @@
             android:backgroundTint="@color/background1"
             android:textColor="@android:color/white"
             android:inputType="textEmailAddress"
+            android:textSize="15sp"
             android:maxLines="1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -111,6 +114,7 @@
             android:backgroundTint="@color/background1"
             android:textColor="@android:color/white"
             android:inputType="textPassword"
+            android:textSize="15sp"
             android:maxLines="1"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -136,7 +140,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/background1"
             android:textColor="@android:color/white"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            android:textSize="15sp"/>
     </com.google.android.material.textfield.TextInputLayout>
     <TextView
         android:id="@+id/textRole"
@@ -164,11 +169,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:text="Submit"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-        android:textColor="@android:color/white"
-        app:backgroundTint="@color/background1"
-        app:cornerRadius="10dp"
+        android:textColor="@color/background1"
+        app:cornerRadius="15dp"
+        app:strokeColor="@color/background1"
         app:layout_constraintTop_toBottomOf="@id/spinner"
         app:layout_constraintStart_toStartOf="@id/spinner"
         app:layout_constraintEnd_toEndOf="@id/spinner"/>

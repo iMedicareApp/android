@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 
 import com.example.androidapp.R;
-import com.example.androidapp.doctor.DoctorsRegistration;
+import com.example.androidapp.doctor.Registration;
 import com.google.android.material.button.MaterialButton;
 
 public class SignUpDialog extends DialogFragment {
@@ -47,7 +47,7 @@ public class SignUpDialog extends DialogFragment {
 
     public void openSignUpForm(){
         getDialog().dismiss();
-       Intent intent= new Intent(getContext(), DoctorsRegistration.class);
+       Intent intent= new Intent(getContext(), Registration.class);
        startActivity(intent);
 
     }

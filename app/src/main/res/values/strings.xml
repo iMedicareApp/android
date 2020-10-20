@@ -11,4 +11,20 @@
     <string name="sign_up_as_a_doctor">Sign up as a Doctor</string>
     <string name="sign_up_as_a_patient">Sign up as a Patient</string>
     <string name="sign_up">Sign Up</string>
+    <string name="title_activity_signed_in">SignedIn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="get_doctor"><u># Get-a-Doctor</u></string>
+    <string name="pending_appointment"><u># Pending-Appointments</u></string>
+
+    <string name="forget_password"><u><i>Forget Password?</i></u></string>
+    <string name="resend_verification"><u><i>Resend Verification</i></u></string>
 </resources>

@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="background">#192532</color>
-    <color name="background1">#6A8887</color>
+    <color name="appbarColor">#1E2C3A</color>
+    <color name="background1">#06D5A4</color>
 </resources>

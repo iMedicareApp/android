@@ -4,24 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.TextView;
 
 import com.example.androidapp.R;
-import com.google.android.material.textview.MaterialTextView;
 
-public class DoctorsRegistration extends AppCompatActivity {
+public class Registration extends AppCompatActivity {
      private Spinner spinner;
      private String[] role;
     @SuppressLint("ResourceAsColor")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_doctors_registration);
+        setContentView(R.layout.activity_registration);
 
         role= new String[]{"Care Receiver", "Doctor"};
         spinner=findViewById(R.id.spinner);
