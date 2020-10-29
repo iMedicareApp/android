@@ -27,4 +27,11 @@
 
     <string name="forget_password"><u><i>Forget Password?</i></u></string>
     <string name="resend_verification"><u><i>Resend Verification</i></u></string>
+
+    <!--DIALOG DETAILS -->
+    <string name="incompleteDetails">Fill in the required details</string>
+    <string name="passwordConflict">Conflicting password</string>
+    <string name="invalidEmail">Invalid Email</string>
+    <string name="duplicateEmail">Email already Exist</string>
+    <string name="weakPassword">Password should be at \n least six(6) characters</string>
 </resources>

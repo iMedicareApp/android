@@ -16,29 +16,23 @@
        android:layout_marginTop="30dp"
        android:layout_marginBottom="30dp"
        >
-       <com.google.android.material.button.MaterialButton
-           android:id="@+id/doctor"
+       <TextView
+           android:id="@+id/warning"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           app:backgroundTint="@color/background1"
-           android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-           android:text="@string/sign_up_as_a_doctor"
-           app:cornerRadius="10dp"
-           app:layout_constraintStart_toStartOf="parent"
+           android:textColor="@color/background1"
            app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
            app:layout_constraintTop_toTopOf="parent"
-           />
-       <com.google.android.material.button.MaterialButton
-           android:id="@+id/patient"
-           android:layout_width="wrap_content"
+           app:layout_constraintBottom_toTopOf="@id/warningIcon"/>
+       <ImageView
+           android:id="@+id/warningIcon"
            android:layout_height="wrap_content"
-           app:backgroundTint="@color/background1"
-           android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-           android:text="@string/sign_up_as_a_patient"
-           app:cornerRadius="10dp"
-           app:layout_constraintStart_toStartOf="parent"
+           android:layout_width="wrap_content"
+           android:src="@drawable/warning_icon"
            app:layout_constraintEnd_toEndOf="parent"
-           app:layout_constraintTop_toBottomOf="@+id/doctor"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
            />
    </androidx.constraintlayout.widget.ConstraintLayout>
 

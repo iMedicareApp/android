@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".doctor.Registration">
+    tools:context=".util.Registration">
     <TextView
         android:id="@+id/doctorsRegistration"
         android:layout_width="match_parent"
@@ -187,6 +187,7 @@
         android:textColor="@color/background1"
         app:cornerRadius="15dp"
         app:strokeColor="@color/background1"
+        android:onClick="signUp"
         app:layout_constraintTop_toBottomOf="@id/spinner"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

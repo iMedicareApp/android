@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LogIn">
+    tools:context=".SignedIn">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -20,9 +20,16 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include android:id="@+id/logInContent"
-        layout="@layout/log_in_content" />
+    <include layout="@layout/signed_in_content_main" />
 
-
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottomNav"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      app:backgroundTint="@color/appbarColor"
+      app:itemIconTint="@drawable/bottom_nav_menu"
+      app:itemTextColor="@drawable/bottom_nav_menu"
+      android:layout_gravity="bottom"
+      app:menu="@menu/bottom_nav_menu"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

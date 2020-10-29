@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514355059038",
+    "firebase_url": "https://medicare-facca.firebaseio.com",
+    "project_id": "medicare-facca",
+    "storage_bucket": "medicare-facca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514355059038:android:75979a26e434f1e7e217cf",
+        "android_client_info": {
+          "package_name": "com.example.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514355059038-lrah8pq4lalrmu0bbksq4kbiqm41ncrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAojhfb1nIyJ1GUx8RFybbCaxDEAz7yzXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514355059038-lrah8pq4lalrmu0bbksq4kbiqm41ncrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
